@@ -1,7 +1,4 @@
 library indulgedb_v1;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'src/flutter_nosql_database/addons/nosql_utilities.dart';
+export 'src/flutter_nosql_database/wrapper/nosql_stateful_wrapper.dart';
